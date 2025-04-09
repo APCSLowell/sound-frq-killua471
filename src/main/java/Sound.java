@@ -49,7 +49,7 @@ public class Sound
         break;
       }
     }
-    int [] newSamples = new int[count];
+    int [] newSamples = new int[samples.length-count];
       for(int j = count; j > samples.length; j--){
         newSamples[j-count]= samples[j];
       }
