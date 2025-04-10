@@ -50,7 +50,7 @@ public class Sound
       }
     }
     int [] newSamples = new int[samples.length-count];
-      for(int j = 0; j < samples.length; j++){
+      for(int j = 0; j < count; j++){
         newSamples[j]= samples[j+count];
       }
     samples=newSamples;
